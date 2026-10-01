@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# generated on demand by src/circuit_gen.py
+circuits/
+hashers/
+
+# fetched by data/fetch.sh
+data/gt_*.csv
+data/*.zip
+
+# written by tests/test_protocol.py
+results/certificate_test/
+.pytest_cache/
+
+# local only: lists identifying terms, must never be committed
+redact.txt
